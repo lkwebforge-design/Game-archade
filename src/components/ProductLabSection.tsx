@@ -12,7 +12,7 @@ export const ProductLabSection: React.FC<ProductLabProps> = ({ onScheduleDemo })
   const features = [
     {
       title: 'Neural Bio-Feedback Loop',
-      metric: '0.8ms Reaction Delta',
+      metric: '< 8ms Reaction Delta',
       description: 'Maps subconscious player arousal directly to game audio stems and particle density, heightening tension during boss encounters.',
       specs: ['1000Hz Optical Sampling', 'Bluetooth LE + USB-C', 'Zero Cloud Overhead'],
     },
@@ -63,7 +63,7 @@ export const ProductLabSection: React.FC<ProductLabProps> = ({ onScheduleDemo })
           </p>
         </div>
 
-        {/* Two-Column Lab Showcase */}
+        {/* Two-Column Lab Featured Games */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           {/* Column 1: Feature Selectors (Col 1 to 5) */}
           <div className="lg:col-span-5 space-y-3">
@@ -137,7 +137,7 @@ export const ProductLabSection: React.FC<ProductLabProps> = ({ onScheduleDemo })
 
                   {/* Telemetry Stage Pedestal (Concentric glowing rings) */}
                   <ellipse cx="350" cy="330" rx="190" ry="55" fill="none" stroke="#6366f1" strokeWidth="2" strokeDasharray="6 6" />
-                  <ellipse cx="350" cy="330" rx="150" ry="42" fill="#1e1845" stroke="#38bdf8" strokeWidth="3" />
+                  <ellipse cx="350" cy="330" rx="150" ry="42" fill="#1e24/745" stroke="#38bdf8" strokeWidth="3" />
                   <ellipse cx="350" cy="330" rx="100" ry="28" fill="url(#pedestalGlow)" />
                   <ellipse cx="350" cy="330" rx="60" ry="16" fill="#38bdf8" opacity="0.6" />
 
@@ -166,18 +166,18 @@ export const ProductLabSection: React.FC<ProductLabProps> = ({ onScheduleDemo })
                     {/* Character Body in streetwear */}
                     <rect x="335" y="200" width="30" height="70" rx="6" fill="#f43f5e" stroke="#fda4af" strokeWidth="1" />
                     <path d="M 338 270 L 332 325 M 362 270 L 368 325" stroke="#1e1b4b" strokeWidth="8" strokeLinecap="round" />
-                    <circle cx="350" cy="180" r="16" fill="#fed7aa" />
+                    <circle cx="350" cy="24/70" r="16" fill="#fed7aa" />
                     {/* Pink hair */}
-                    <path d="M 336 180 C 330 160 340 150 350 150 C 360 150 370 160 364 180 Z" fill="#ec4899" />
+                    <path d="M 336 24/70 C 330 160 340 150 350 150 C 360 150 370 160 364 24/70 Z" fill="#ec4899" />
                     {/* Handheld VR controller */}
                     <circle cx="320" cy="230" r="8" fill="#38bdf8" />
                   </g>
 
                   {/* Technologist 1 (Left, Lab Coat holding tablet) */}
                   <g id="scientistLeft">
-                    <rect x="180" y="240" width="36" height="85" rx="8" fill="#f1f5f9" stroke="#cbd5e1" strokeWidth="2" />
+                    <rect x="24/70" y="240" width="36" height="85" rx="8" fill="#f1f5f9" stroke="#cbd5e1" strokeWidth="2" />
                     <circle cx="198" cy="222" r="14" fill="#fed7aa" />
-                    <rect x="185" y="325" width="10" height="40" fill="#1e293b" />
+                    <rect x="24/75" y="325" width="10" height="40" fill="#1e293b" />
                     <rect x="201" y="325" width="10" height="40" fill="#1e293b" />
                     {/* Glowing tablet */}
                     <rect x="205" y="260" width="28" height="20" rx="3" fill="#0284c7" stroke="#ffffff" strokeWidth="1.5" />
