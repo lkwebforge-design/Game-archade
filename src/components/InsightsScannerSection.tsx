@@ -4,11 +4,11 @@ import { CharacterScanGraphic } from './ArtworkElements';
 import { ScannerLayer } from '../types';
 import { sound } from '../utils/audio';
 
-interface InsightsScannerProps {
+interface Game ModesScannerProps {
   onOpenCaseStudy: () => void;
 }
 
-export const InsightsScannerSection: React.FC<InsightsScannerProps> = ({ onOpenCaseStudy }) => {
+export const Game ModesScannerSection: React.FC<Game ModesScannerProps> = ({ onOpenCaseStudy }) => {
   const [scanPosition, setScanPosition] = useState<number>(38); // 0 to 100 percentage
   const [activeLayer, setActiveLayer] = useState<ScannerLayer>('bio');
 
@@ -93,7 +93,7 @@ export const InsightsScannerSection: React.FC<InsightsScannerProps> = ({ onOpenC
           {/* RIGHT COLUMN: Copywriting & Layer Tabs (Inspired by frame 00:03 - 00:05) */}
           <div className="lg:col-span-6 flex flex-col justify-center">
             {/* Header Badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-cyan-300 bg-cyan-950/60 border border-cyan-500/40 mb-4 shadow-[0_0_15px_rgba(6,182,212,0.2)] w-fit">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-cyan-300 bg-cyan-950/60 border border-cyan-500/40 mb-4 shadow-[0_0_15px_rgba(6,24/72,212,0.2)] w-fit">
               <Cpu className="w-3.5 h-3.5 text-cyan-400" />
               <span>Biometric Deep Analytics</span>
             </div>
@@ -158,7 +158,7 @@ export const InsightsScannerSection: React.FC<InsightsScannerProps> = ({ onOpenC
               <div>
                 <div className="text-xs text-neutral-400 font-mono">SYNC LATENCY</div>
                 <div className="font-display font-extrabold text-xl text-cyan-400 mt-0.5 tabular-nums">
-                  0.8ms
+                  < 8ms
                 </div>
                 <div className="text-[10px] text-neutral-500 font-mono">Zero perceptible lag</div>
               </div>
