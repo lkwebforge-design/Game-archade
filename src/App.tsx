@@ -7,11 +7,11 @@ import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { HowItWorksSection } from './components/HowItWorksSection';
-import { InsightsScannerSection } from './components/InsightsScannerSection';
+import { Game ModesScannerSection } from './components/Game ModesScannerSection';
 import { ProductLabSection } from './components/ProductLabSection';
-import { ShowcaseGallerySection } from './components/ShowcaseGallerySection';
+import { Featured GamesGallerySection } from './components/Featured GamesGallerySection';
 import { WhatsAppCTASection } from './components/WhatsAppCTASection';
-import { StudioLocationsSection } from './components/StudioLocationsSection';
+import { StudioVisitSection } from './components/StudioVisitSection';
 import { Footer } from './components/Footer';
 import { ProjectModal } from './components/ProjectModal';
 import { ReelModal } from './components/ReelModal';
@@ -41,23 +41,23 @@ export default function App() {
         {/* Section 1: Hero Scene & Value Proposition */}
         <HeroSection onOpenReel={() => setIsReelOpen(true)} />
 
-        {/* Section 2: How It Works & Interactive Gameplay Console */}
+        {/* Section 2: The Experience & Interactive Gameplay Console */}
         <HowItWorksSection />
 
-        {/* Section 3: Insights & The Signature Interactive Biometric X-Ray Scanner */}
-        <InsightsScannerSection onOpenCaseStudy={() => setIsCaseStudyOpen(true)} />
+        {/* Section 3: Game Modes & The Signature Interactive Biometric X-Ray Scanner */}
+        <Game ModesScannerSection onOpenCaseStudy={() => setIsCaseStudyOpen(true)} />
 
-        {/* Section 4: Product Lab & Digital Twin Telemetry Testing Stage */}
+        {/* Section 4: Lounge Gear & Digital Twin Telemetry Testing Stage */}
         <ProductLabSection onScheduleDemo={handleOpenWhatsAppHotline} />
 
-        {/* Section 5: Flagship AAA Showcase & Portfolio */}
-        <ShowcaseGallerySection onSelectProject={(project) => setSelectedProject(project)} />
+        {/* Section 5: Flagship AAA Featured Games & Portfolio */}
+        <Featured GamesGallerySection onSelectProject={(project) => setSelectedProject(project)} />
 
         {/* Section 6: WhatsApp High-Converting CTA & Project Pitch Builder */}
         <WhatsAppCTASection />
 
-        {/* Section 7: Global Studios (Tokyo, London, LA) & Contact Desk */}
-        <StudioLocationsSection />
+        {/* Section 7: Global Visit Us (Colombo, Kandy, LA) & Contact Desk */}
+        <StudioVisitSection />
       </main>
 
       {/* Quiet Luxury Footer */}
