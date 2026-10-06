@@ -1,6 +1,6 @@
-# 🎮 AETHERIA — Next-Gen Game Arcade & Interactive Studio
+# 🎮 AETHERIA — Premium Gaming Lounge
 
-> A premier creative technology and game direction web application engineering high-stakes interactive realities, biometric gameplay mechanics, and real-time 3D experiences.
+> A premium gaming lounge experience built around high-performance PC gaming, console sessions, sim racing, squad nights, and immersive interactive features.
 
 ![AETHERIA Preview](https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80)
 
@@ -8,28 +8,28 @@
 
 ## ⚡ Features
 
-- **Interactive Arcade Console & Runner Simulator**:
-  - Live playable game runner with collision physics, sound effects, jump mechanics, and difficulty scaling.
+- **Interactive Gaming Console & Runner Simulator**:
+  - Live interactive runner with collision physics, sound effects, jump mechanics, and difficulty scaling.
   - Interactive state controls: toggle between `PAUSED` and `LIVE` telemetry streams.
 
-- **Biometric Subconscious X-Ray Scanner**:
-  - Draggable optical lens slider revealing multi-layer anatomical diagnostics (`Cardiac Core`, `Neural Synapses`, and `Kinematic Skeleton`).
+- **Performance X-Ray Scanner**:
+  - Draggable scanner experience that turns the lounge into a futuristic performance interface.
   - Real-time CSS polygon clip-path rendering with SVG vector graphics.
 
-- **Digital Twin Product Lab**:
-  - Biometric telemetry pedestal with live heart-rate monitoring, pupil dilation graphs, and low-latency stress indicators.
+- **Gaming Gear Lab**:
+  - Interactive gaming setup and performance dashboard showcasing the premium gear experience.
 
 - **Synthesized Web Audio Engine**:
   - Deep A1 ambient drone and tactile feedback clicks, lasers, and scan chimes built entirely with the browser's native **Web Audio API** (0 external audio dependencies).
 
-- **Flagship AAA Portfolio Showcase**:
-  - Filterable game projects (`Project KRONOS`, `CYBER-RONIN 2088`, `SYNAPSE RUNNER`, etc.) with detailed architecture inspection modals.
+- **Featured Games Showcase**:
+  - Filterable featured game experiences with detailed inspection modals.
 
-- **Instant Project Brief Builder**:
-  - Interactive questionnaire that compiles client project specifications and automatically formats pre-filled WhatsApp discovery links.
+- **Instant Session Builder**:
+  - Interactive questionnaire that builds a ready-to-send WhatsApp booking request.
 
-- **Global Studio Hubs**:
-  - Live ticking local time zones for Tokyo (Shibuya), London (Soho), and Los Angeles (Arts District).
+- **Lounge Locations**:
+  - Location interface for Colombo, Kandy, and Galle gaming zones.
 
 ---
 
@@ -76,7 +76,7 @@ The optimized static files will be generated in the `dist/` directory, ready to 
 
 ---
 
-## 🌐 One-Click Deployment
+## 🌐 Deployment
 
 ### Deploy to Vercel
 1. Push this repository to GitHub.
