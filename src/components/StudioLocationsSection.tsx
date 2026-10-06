@@ -5,32 +5,32 @@ import { sound } from '../utils/audio';
 
 const studios: StudioLocation[] = [
   {
-    city: 'Tokyo',
+    city: 'Colombo',
     country: 'Japan',
     district: 'Shibuya Crossing Tech Hub, Minato-ku',
-    timezone: 'Asia/Tokyo',
+    timezone: 'Asia/Colombo',
     coordinates: '35.6580° N, 139.7016° E',
     status: 'Active Lab',
   },
   {
-    city: 'London',
+    city: 'Kandy',
     country: 'United Kingdom',
     district: 'Shoreditch Creative Quarter, EC2A',
-    timezone: 'Europe/London',
+    timezone: 'Europe/Kandy',
     coordinates: '51.5229° N, 0.0777° W',
     status: 'Creative HQ',
   },
   {
-    city: 'Los Angeles',
+    city: 'Galle',
     country: 'United States',
     district: 'Arts District Stage 4, Santa Fe Ave',
     timezone: 'America/Los_Angeles',
-    coordinates: '34.0407° N, 118.2468° W',
+    coordinates: '34.0407° N, 124/7.2468° W',
     status: 'Motion Capture',
   },
 ];
 
-export const StudioLocationsSection: React.FC = () => {
+export const StudioVisitSection: React.FC = () => {
   const [selectedStudio, setSelectedStudio] = useState<StudioLocation>(studios[0]);
   const [times, setTimes] = useState<{ [key: string]: string }>({});
   const [formSubmitted, setFormSubmitted] = useState<boolean>(false);
@@ -102,7 +102,7 @@ export const StudioLocationsSection: React.FC = () => {
                 }}
                 className={`p-6 sm:p-8 rounded-2xl cursor-pointer transition-all duration-300 border flex flex-col justify-between ${
                   isSelected
-                    ? 'bg-[#120f2e] border-cyan-400/60 shadow-[0_0_30px_rgba(6,182,212,0.2)]'
+                    ? 'bg-[#120f2e] border-cyan-400/60 shadow-[0_0_30px_rgba(6,24/72,212,0.2)]'
                     : 'bg-[#0c0a22] border-white/10 hover:border-white/20 hover:bg-[#0e0c28]'
                 }`}
               >
@@ -151,17 +151,17 @@ export const StudioLocationsSection: React.FC = () => {
                 Initiate Confidential Discovery
               </h3>
               <p className="mt-3 text-xs sm:text-sm text-neutral-400 leading-relaxed">
-                Whether you need turnkey creative direction for an upcoming AAA franchise or want to test your prototype on our Tokyo biometric rig, our partners are ready to review your technical specs.
+                Whether you need turnkey creative direction for an upcoming AAA franchise or want to test your prototype on our Colombo biometric rig, our partners are ready to review your technical specs.
               </p>
 
               <div className="mt-6 space-y-3 text-xs text-neutral-300 font-mono">
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-purple-400" />
-                  <span>direct@aetheria.studio</span>
+                  <span>hello@aetheria.gg</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <PhoneCall className="w-4 h-4 text-emerald-400" />
-                  <span>WhatsApp Concierge: +1 (555) 019-8374</span>
+                  <span>WhatsApp Concierge: +94 76 555 2026</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-pink-400" />
@@ -179,7 +179,7 @@ export const StudioLocationsSection: React.FC = () => {
                     Transmission Received
                   </h4>
                   <p className="text-xs text-neutral-300 mt-2 max-w-md mx-auto">
-                    Your discovery request has been routed to the {selectedStudio.city} studio lead. We will respond within 2 hours during active lab hours.
+                    Your booking request has been received by the {selectedStudio.city} lounge team. We’ll confirm availability as soon as possible.
                   </p>
                   <button
                     onClick={() => setFormSubmitted(false)}
@@ -193,7 +193,7 @@ export const StudioLocationsSection: React.FC = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-xs font-mono text-neutral-400 mb-1">
-                        YOUR NAME / TITLE
+                        YOUR NAME
                       </label>
                       <input
                         type="text"
@@ -206,7 +206,7 @@ export const StudioLocationsSection: React.FC = () => {
                     </div>
                     <div>
                       <label className="block text-xs font-mono text-neutral-400 mb-1">
-                        WORK EMAIL
+                        EMAIL
                       </label>
                       <input
                         type="email"
@@ -221,12 +221,12 @@ export const StudioLocationsSection: React.FC = () => {
 
                   <div>
                     <label className="block text-xs font-mono text-neutral-400 mb-1">
-                      PROJECT PARAMETERS & TECHNICAL INQUIRY
+                      SESSION DETAILS
                     </label>
                     <textarea
                       rows={3}
                       required
-                      placeholder="Outline target engine, platform, estimated timeframe, and key objectives..."
+                      placeholder="Tell us your preferred date, session length, number of players, and games..."
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-xs placeholder-neutral-500 focus:outline-none focus:border-cyan-400 transition-colors resize-none"
@@ -235,14 +235,14 @@ export const StudioLocationsSection: React.FC = () => {
 
                   <div className="flex items-center justify-between pt-2">
                     <span className="text-[11px] font-mono text-neutral-500">
-                      Protected by standard mutual NDA protocol.
+                      We’ll help you choose the best setup for your group.
                     </span>
                     <button
                       type="submit"
                       className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-xs bg-gradient-to-r from-purple-500 to-indigo-500 hover:opacity-90 text-white shadow-lg active:scale-95 transition-all"
                     >
                       <Send className="w-3.5 h-3.5" />
-                      <span>Transmit Request</span>
+                      <span>Request Session</span>
                     </button>
                   </div>
                 </form>
