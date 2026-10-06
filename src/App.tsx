@@ -16,7 +16,6 @@ import { Footer } from './components/Footer';
 import { ProjectModal } from './components/ProjectModal';
 import { ReelModal } from './components/ReelModal';
 import { CaseStudyModal } from './components/CaseStudyModal';
-import { DownloadModal } from './components/DownloadModal';
 import { WhatsAppFloatingButton } from './components/WhatsAppFloatingButton';
 import { Project } from './types';
 
@@ -24,7 +23,6 @@ export default function App() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isReelOpen, setIsReelOpen] = useState<boolean>(false);
   const [isCaseStudyOpen, setIsCaseStudyOpen] = useState<boolean>(false);
-  const [isDownloadOpen, setIsDownloadOpen] = useState<boolean>(false);
 
   const handleOpenWhatsAppHotline = () => {
     const text = encodeURIComponent(
@@ -81,11 +79,6 @@ export default function App() {
         isOpen={isCaseStudyOpen}
         onClose={() => setIsCaseStudyOpen(false)}
         onOpenWhatsApp={handleOpenWhatsAppHotline}
-      />
-
-      <DownloadModal
-        isOpen={isDownloadOpen}
-        onClose={() => setIsDownloadOpen(false)}
       />
 
       {/* Quick WhatsApp Floating Concierge */}
