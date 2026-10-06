@@ -115,4 +115,8 @@ export const Footer: React.FC = () => {
             <a href="#" className="hover:text-neutral-300 transition-colors">Privacy Charter</a>
             <a href="#" className="hover:text-neutral-300 transition-colors">Security & Ethics</a>
           </div>
-        </div>\n      </div>\n    </footer>\n  );\n};\n
+        </div>
+      </div>
+    </footer>
+  );
+};
