@@ -25,11 +25,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWhatsAppModal }) => {
   };
 
   const navLinks = [
-    { label: 'How It Works', href: '#how-it-works' },
-    { label: 'Insights', href: '#insights' },
-    { label: 'Product Lab', href: '#product' },
-    { label: 'Showcase', href: '#showcase' },
-    { label: 'Studios', href: '#studios' },
+    { label: 'The Experience', href: '#how-it-works' },
+    { label: 'Game Modes', href: '#insights' },
+    { label: 'Lounge Gear', href: '#product' },
+    { label: 'Featured Games', href: '#showcase' },
+    { label: 'Visit Us', href: '#studios' },
   ];
 
   return (
@@ -99,7 +99,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWhatsAppModal }) => {
               sound.playLaser();
               onOpenWhatsAppModal();
             }}
-            className="group flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 hover:bg-emerald-500 hover:text-neutral-950 transition-all duration-200 shadow-[0_0_15px_rgba(16,185,129,0.15)] active:scale-95 whitespace-nowrap"
+            className="group flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 hover:bg-emerald-500 hover:text-neutral-950 transition-all duration-200 shadow-[0_0_15px_rgba(16,24/75,129,0.15)] active:scale-95 whitespace-nowrap"
           >
             <MessageSquare className="w-3.5 h-3.5 fill-current text-emerald-400 group-hover:text-neutral-950 transition-colors" />
             <span>WhatsApp Connect</span>
