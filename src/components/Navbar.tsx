@@ -73,23 +73,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWhatsAppModal }) => {
 
         {/* Zone 3: 1-2 primary actions */}
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Download Code Button */}
-          <a
-            href="/aetheria-codebase.zip"
-            download="aetheria-codebase.zip"
-            onClick={() => sound.playLaser()}
-            title="Download full project zip"
-            className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 hover:bg-cyan-500 hover:text-neutral-950 transition-all duration-200 shadow-[0_0_15px_rgba(6,182,212,0.15)] whitespace-nowrap active:scale-95"
-          >
-            <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 fill-none stroke-current stroke-2">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-              <polyline points="7 10 12 15 17 10" />
-              <line x1="12" y1="15" x2="12" y2="3" />
-            </svg>
-            <span className="hidden sm:inline">Download Code</span>
-            <span className="sm:hidden">ZIP</span>
-          </a>
-
           {/* Ambient Sound Toggle */}
           <button
             onClick={handleToggleAudio}
