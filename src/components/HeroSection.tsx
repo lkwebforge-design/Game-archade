@@ -22,9 +22,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenReel }) => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
           </span>
-          <span className="uppercase font-semibold">Creative Technology & Interactive Worlds Studio</span>
+          <span className="uppercase font-semibold">Premium Gaming Lounge · PC · Console · Sim Racing</span>
           <span aria-hidden="true" className="text-neutral-600">/</span>
-          <span className="text-neutral-400 hidden sm:inline">Tokyo · London · Los Angeles</span>
+          <span className="text-neutral-400 hidden sm:inline">Colombo · Kandy · Galle</span>
         </div>
 
         {/* Hero Title Lockup inspired by ELIXIR typography */}
@@ -35,7 +35,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenReel }) => {
             </span>
           </h1>
           <p className="mt-4 sm:mt-6 text-lg sm:text-xl md:text-2xl text-neutral-300 max-w-3xl font-light leading-relaxed text-balance">
-            We architect cinematic gaming realities and neural biometric engines that adapt digital worlds to human emotion.
+            A premium gaming lounge built for serious sessions, late-night squads, competitive play, and unforgettable gaming experiences.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenReel }) => {
             <span className="w-6 h-6 rounded-full bg-neutral-950/20 flex items-center justify-center">
               <Play className="w-3.5 h-3.5 fill-current text-neutral-950 ml-0.5" />
             </span>
-            <span>Launch Studio Reel 2026</span>
+            <span>Explore The Lounge</span>
           </button>
 
           <a
@@ -59,7 +59,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenReel }) => {
             onClick={() => sound.playBlip(500, 0.05)}
             className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full font-medium text-sm text-neutral-200 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-purple-400/40 transition-all"
           >
-            <span>Explore Architecture</span>
+            <span>Explore The Experience</span>
             <ChevronDown className="w-4 h-4 text-purple-400 animate-bounce" />
           </a>
         </div>
@@ -70,18 +70,18 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenReel }) => {
           <HeroSceneArtwork />
 
           {/* Floating Telemetry Markers */}
-          <div className="absolute bottom-6 left-6 right-6 flex flex-wrap items-center justify-between gap-4 p-4 rounded-xl bg-[#080718]/80 backdrop-blur-md border border-white/10 text-xs font-mono text-neutral-300 z-20">
+          <div className="absolute bottom-6 left-6 right-6 flex flex-wrap items-center justify-between gap-4 p-4 rounded-xl bg-[#080724/7]/80 backdrop-blur-md border border-white/10 text-xs font-mono text-neutral-300 z-20">
             <div className="flex items-center gap-2">
               <Cpu className="w-4 h-4 text-cyan-400" />
-              <span>RUNTIME: <strong className="text-white">UNREAL 5.5 + WEBGPU</strong></span>
+              <span>LOUNGE SETUP: <strong className="text-white">PC · PS5 · XBOX · SIM</strong></span>
             </div>
             <div className="flex items-center gap-2">
               <Activity className="w-4 h-4 text-purple-400" />
-              <span>BIOMETRIC LATENCY: <strong className="text-emerald-400 tabular-nums">0.8ms</strong></span>
+              <span>NETWORK LATENCY: <strong className="text-emerald-400 tabular-nums">< 8ms</strong></span>
             </div>
             <div className="hidden md:flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-pink-400" />
-              <span>COMMERCIAL PROJECTS: <strong className="text-white">42 SHIPPED</strong></span>
+              <span>ACTIVE GAMING RIGS: <strong className="text-white">40+</strong></span>
             </div>
           </div>
         </div>
@@ -90,27 +90,27 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenReel }) => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12 mt-8 border-t border-white/10 text-left">
           <div>
             <div className="font-display text-3xl sm:text-4xl font-extrabold text-white tabular-nums tracking-tight">
-              42M+
+              40+
             </div>
-            <div className="text-xs text-neutral-400 mt-1">Global Players Engaged</div>
+            <div className="text-xs text-neutral-400 mt-1">Sessions Powered</div>
           </div>
           <div>
             <div className="font-display text-3xl sm:text-4xl font-extrabold text-cyan-400 tabular-nums tracking-tight">
-              99.4%
+              240Hz
             </div>
-            <div className="text-xs text-neutral-400 mt-1">Biometric Immersion Fidelity</div>
+            <div className="text-xs text-neutral-400 mt-1">Competitive Displays</div>
           </div>
           <div>
             <div className="font-display text-3xl sm:text-4xl font-extrabold text-purple-400 tabular-nums tracking-tight">
-              18
+              24/7
             </div>
-            <div className="text-xs text-neutral-400 mt-1">AAA & Indie Industry Laurels</div>
+            <div className="text-xs text-neutral-400 mt-1">Premium Gaming Access</div>
           </div>
           <div>
             <div className="font-display text-3xl sm:text-4xl font-extrabold text-pink-400 tabular-nums tracking-tight">
               3
             </div>
-            <div className="text-xs text-neutral-400 mt-1">Global Labs (TYO / LDN / LAX)</div>
+            <div className="text-xs text-neutral-400 mt-1">Lounge Zones</div>
           </div>
         </div>
       </div>
