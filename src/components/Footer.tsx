@@ -106,33 +106,13 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom Copyright & Zero-Fluff Credits */}
+        {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-neutral-500">
           <div>
             © {new Date().getFullYear()} AETHERIA Studio. All international rights reserved.
           </div>
           <div className="flex flex-wrap items-center gap-4">
-            <a
-              href="/aetheria-codebase.zip"
-              download="aetheria-codebase.zip"
-              className="text-cyan-400 hover:text-cyan-300 font-bold transition-colors flex items-center gap-1.5"
-            >
-              <span>Download Full Codebase (.ZIP)</span>
-            </a>
-            <span aria-hidden="true" className="text-neutral-700">·</span>
-            <a
-              href="/aetheria-codebase.tar.gz"
-              download="aetheria-codebase.tar.gz"
-              className="text-purple-400 hover:text-purple-300 transition-colors"
-            >
-              <span>Download (.TAR.GZ)</span>
-            </a>
-            <span aria-hidden="true" className="text-neutral-700">·</span>
             <a href="#" className="hover:text-neutral-300 transition-colors">Privacy Charter</a>
             <a href="#" className="hover:text-neutral-300 transition-colors">Security & Ethics</a>
           </div>
-        </div>
-      </div>
-    </footer>
-  );
-};
+        </div>\n      </div>\n    </footer>\n  );\n};\n
