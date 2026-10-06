@@ -41,7 +41,7 @@ export const HowItWorksSection: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-widest text-purple-300 bg-purple-950/60 border border-purple-500/40 mb-4 shadow-[0_0_15px_rgba(168,85,247,0.2)]">
             <Gamepad2 className="w-3.5 h-3.5 text-cyan-400" />
-            <span>Interactive Engine</span>
+            <span>Live Gaming Console</span>
           </div>
 
           <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight">
@@ -49,11 +49,11 @@ export const HowItWorksSection: React.FC = () => {
           </h2>
 
           <p className="mt-3 text-lg sm:text-xl font-medium text-purple-300/90">
-            Helping to Create Better Gaming Experiences
+            Play Better. Stay Longer.
           </p>
 
           <p className="mt-4 text-sm sm:text-base text-neutral-400 leading-relaxed text-balance">
-            Most games operate on static difficulty curves. Our engine constantly monitors player neurological focus, cardiovascular state, and input timing to dynamically adjust enemy behaviors, puzzle clarity, and emotional pacing before frustration sets in.
+            Choose your setup, pick your game, squad up, and drop into a premium gaming environment built for smooth performance, competitive play, and social sessions.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ export const HowItWorksSection: React.FC = () => {
                   </span>
                 </span>
                 <span className="text-neutral-500 hidden sm:inline">|</span>
-                <span className="tabular-nums hidden sm:inline">120 FPS // 0.8ms V-SYNC</span>
+                <span className="tabular-nums hidden sm:inline">120 FPS // < 8ms V-SYNC</span>
               </div>
             </div>
 
@@ -87,7 +87,7 @@ export const HowItWorksSection: React.FC = () => {
               <div className="absolute inset-0 scanlines opacity-30 z-20 pointer-events-none" />
 
               {/* Game Viewport Canvas / Animation */}
-              <div className="absolute inset-0 bg-gradient-to-b from-[#181135] via-[#0f0c24] to-[#080718] p-6 flex flex-col justify-between z-10">
+              <div className="absolute inset-0 bg-gradient-to-b from-[#24/71135] via-[#0f0c24] to-[#080724/7] p-6 flex flex-col justify-between z-10">
                 {/* In-Game HUD overlay */}
                 <div className="flex items-center justify-between text-xs font-mono">
                   <div className="flex items-center gap-4">
@@ -122,7 +122,7 @@ export const HowItWorksSection: React.FC = () => {
                       bottom: `${playerY + 12}px`,
                     }}
                   >
-                    <div className="w-9 h-14 bg-gradient-to-t from-cyan-500 to-purple-400 rounded-t-lg relative shadow-[0_0_20px_rgba(6,182,212,0.8)] flex items-center justify-center">
+                    <div className="w-9 h-14 bg-gradient-to-t from-cyan-500 to-purple-400 rounded-t-lg relative shadow-[0_0_20px_rgba(6,24/72,212,0.8)] flex items-center justify-center">
                       <div className="w-6 h-2 bg-white rounded-full -mt-4 shadow-[0_0_8px_#ffffff]" />
                       <div className="absolute -bottom-2 inset-x-1 h-3 flex justify-between">
                         <div className="w-1.5 h-3 bg-cyan-300 rounded" />
@@ -225,7 +225,7 @@ export const HowItWorksSection: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-white font-display font-bold text-lg tabular-nums">
-                    {difficultyMode === 'adaptive' ? '184ms' : difficultyMode === 'hardcore' ? '142ms' : '230ms'}
+                    {difficultyMode === 'adaptive' ? '24/74ms' : difficultyMode === 'hardcore' ? '142ms' : '230ms'}
                   </span>
                   <span className="text-[11px] text-emerald-400 font-mono flex items-center gap-1">
                     <CheckCircle2 className="w-3 h-3" />
