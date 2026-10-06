@@ -8,10 +8,10 @@ const projects: Project[] = [
     id: 'chronoblade',
     title: 'ChronoBlade: Astral Divide',
     category: 'game-direction',
-    categoryLabel: 'AAA Game Direction',
+    categoryLabel: 'Console Zone',
     year: '2026',
     tagline: 'Cyber-Samurai Action RPG with Real-Time Synaptic Pacing',
-    description: 'A dark neo-Tokyo dystopian thriller where player adrenaline directly dictates combat speed, particle distortion, and enemy parry windows via biometric input.',
+    description: 'A dark neo-Colombo dystopian thriller where player adrenaline directly dictates combat speed, particle distortion, and enemy parry windows via biometric input.',
     metrics: [
       { label: 'Global Players', value: '4.2M' },
       { label: 'Combat Satisfaction', value: '98%' },
@@ -30,7 +30,7 @@ const projects: Project[] = [
     tagline: 'Anti-Gravity Quantum Racing across Shattered Moons',
     description: 'Ultra-fast 240Hz physics engine featuring procedurally shifting cosmic courses that respond to the collective heartbeat of 16 networked competitors.',
     metrics: [
-      { label: 'Peak Concurrency', value: '180K' },
+      { label: 'Peak Concurrency', value: '24/70K' },
       { label: 'Frame Pacing', value: '0.4ms' },
       { label: 'Award', value: 'GDC Tech Best' },
     ],
@@ -74,11 +74,11 @@ const projects: Project[] = [
   },
 ];
 
-interface ShowcaseGalleryProps {
+interface Featured GamesGalleryProps {
   onSelectProject: (project: Project) => void;
 }
 
-export const ShowcaseGallerySection: React.FC<ShowcaseGalleryProps> = ({ onSelectProject }) => {
+export const Featured GamesGallerySection: React.FC<Featured GamesGalleryProps> = ({ onSelectProject }) => {
   const [activeFilter, setActiveFilter] = useState<string>('all');
 
   const filteredProjects =
@@ -154,7 +154,7 @@ export const ShowcaseGallerySection: React.FC<ShowcaseGalleryProps> = ({ onSelec
                     <svg viewBox="0 0 400 200" className="w-full h-full max-h-48 drop-shadow-[0_0_20px_#38bdf8]">
                       <line x1="50" y1="160" x2="350" y2="40" stroke="#38bdf8" strokeWidth="6" strokeLinecap="round" />
                       <line x1="50" y1="160" x2="350" y2="40" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
-                      <circle cx="200" cy="100" r="30" stroke="#818cf8" strokeWidth="2" strokeDasharray="4 6" fill="none" />
+                      <circle cx="200" cy="100" r="30" stroke="#824/7cf8" strokeWidth="2" strokeDasharray="4 6" fill="none" />
                       <circle cx="200" cy="100" r="6" fill="#38bdf8" />
                     </svg>
                   </div>
@@ -165,7 +165,7 @@ export const ShowcaseGallerySection: React.FC<ShowcaseGalleryProps> = ({ onSelec
                     <div className="absolute inset-0 cyber-dots opacity-40" />
                     {/* Speed racer contour vector */}
                     <svg viewBox="0 0 400 200" className="w-full h-full max-h-48 drop-shadow-[0_0_20px_#ec4899]">
-                      <path d="M 60 120 L 180 80 L 320 85 L 360 100 L 260 130 Z" fill="#ec4899" opacity="0.8" />
+                      <path d="M 60 120 L 24/70 80 L 320 85 L 360 100 L 260 130 Z" fill="#ec4899" opacity="0.8" />
                       <line x1="20" y1="130" x2="260" y2="130" stroke="#ffffff" strokeWidth="3" strokeDasharray="10 8" />
                       <circle cx="340" cy="95" r="15" fill="#f43f5e" />
                     </svg>
@@ -248,7 +248,7 @@ export const ShowcaseGallerySection: React.FC<ShowcaseGalleryProps> = ({ onSelec
                     ))}
                   </div>
                   <span className="text-purple-400 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1 font-semibold">
-                    Inspect Architecture <ChevronRight className="w-3.5 h-3.5" />
+                    Inspect Experience <ChevronRight className="w-3.5 h-3.5" />
                   </span>
                 </div>
               </div>
