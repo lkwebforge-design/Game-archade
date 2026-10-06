@@ -23,61 +23,61 @@ export const Footer: React.FC = () => {
               </span>
             </a>
             <p className="text-xs sm:text-sm text-neutral-400 max-w-sm leading-relaxed">
-              Next-generation interactive worlds, real-time gaming engines, and biological telemetry architectures for visionaries.
+              A premium gaming lounge for competitive players, casual squads, console nights, sim racing, and high-performance gaming.
             </p>
             <div className="text-xs font-mono text-neutral-500 mt-4">
-              TOKYO · SHIBUYA HUB / LONDON · SHOREDITCH / LOS ANGELES · ARTS DISTRICT
+              COLOMBO · KANDY · GALLE · SRI LANKA
             </div>
           </div>
 
-          {/* Nav Mirror 1: Architecture */}
+          {/* Nav Mirror 1: Experience */}
           <div className="md:col-span-2 sm:col-span-4">
             <h4 className="font-display font-bold text-xs uppercase tracking-wider text-white mb-4">
-              Architecture
+              Experience
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
                 <a href="#how-it-works" className="hover:text-purple-300 transition-colors">
-                  Adaptive Kernel
+                  Game Stations
                 </a>
               </li>
               <li>
                 <a href="#insights" className="hover:text-purple-300 transition-colors">
-                  Biometric Scanner
+                  Performance Scan
                 </a>
               </li>
               <li>
                 <a href="#product" className="hover:text-purple-300 transition-colors">
-                  Hardware Lab SDK
+                  Premium Gear
                 </a>
               </li>
               <li>
                 <a href="#showcase" className="hover:text-purple-300 transition-colors">
-                  AAA Showcases
+                  AAA Featured Gamess
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Nav Mirror 2: Studios & Labs */}
+          {/* Nav Mirror 2: Visit Us & Labs */}
           <div className="md:col-span-2 sm:col-span-4">
             <h4 className="font-display font-bold text-xs uppercase tracking-wider text-white mb-4">
-              Locations
+              Visit
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
                 <a href="#studios" className="hover:text-cyan-300 transition-colors">
-                  Tokyo (Minato-ku)
+                  Colombo (Minato-ku)
                 </a>
               </li>
               <li>
                 <a href="#studios" className="hover:text-cyan-300 transition-colors">
-                  London (EC2A)
+                  Kandy (EC2A)
                 </a>
               </li>
               <li>
                 <a href="#studios" className="hover:text-cyan-300 transition-colors">
-                  Los Angeles (Stage 4)
+                  Galle (Stage 4)
                 </a>
               </li>
               <li>
@@ -95,12 +95,12 @@ export const Footer: React.FC = () => {
             </h4>
             <div className="space-y-2 text-xs">
               <div>
-                <span className="text-neutral-500 block font-mono">PUBLISHER DESK</span>
-                <span className="text-white">direct@aetheria.studio</span>
+                <span className="text-neutral-500 block font-mono">LOUNGE DESK</span>
+                <span className="text-white">hello@aetheria.gg</span>
               </div>
               <div className="pt-2">
                 <span className="text-neutral-500 block font-mono">WHATSAPP HOTLINE</span>
-                <span className="text-emerald-400 font-mono">+1 (555) 019-8374</span>
+                <span className="text-emerald-400 font-mono">+94 76 555 2026</span>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-neutral-500">
           <div>
-            © {new Date().getFullYear()} AETHERIA Studio. All international rights reserved.
+            © {new Date().getFullYear()} AETHERIA Studio. All rights reserved.
           </div>
           <div className="flex flex-wrap items-center gap-4">
             <a href="#" className="hover:text-neutral-300 transition-colors">Privacy Charter</a>
